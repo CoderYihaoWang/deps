@@ -8,7 +8,7 @@ namespace Yihao.Deps.Tests;
 public class RepoAnalyzerTests
 {
     [Fact]
-    public void GeneratesCorrectRepositoryJson()
+    public void TestAnalyze()
     {
         var analyzer = new RepoAnalyzer();
 

@@ -1,0 +1,99 @@
+﻿[
+  {
+    "Name": "Sashimi.AzureCloudService",
+    "Projects": [
+      {
+        "Name": "Calamari.AzureCloudService",
+        "PackageRefs": [
+          "Calamari.Common",
+          "Calamari.Scripting",
+          "Calamari.AzureScripting",
+          "Microsoft.Azure.Common"
+        ],
+        "ProjectRefs": [ ]
+      },
+      {
+        "Name": "Calamari.AzureCloudService.Tests",
+        "PackageRefs": [
+          "Calamari.Tests.Shared",
+          "FluentAssertions"
+        ],
+        "ProjectRefs": [
+          "Calamari.AzureCloudService"
+        ]
+      },
+      {
+        "Name": "Sashimi.AzureCloudService",
+        "PackageRefs": [
+          "Sashimi.AzureScripting"
+        ],
+        "ProjectRefs": [ ]
+      },
+      {
+        "Name": "Sashimi.AzureCloudService.Tests",
+        "PackageRefs": [
+          "Sashimi.Tests.Shared"
+        ],
+        "ProjectRefs": [
+          "Sashimi.AzureCloudService"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Sashimi.AzureScripting",
+    "Projects": [
+      {
+        "Name": "Calamari.AzureScripting",
+        "PackageRefs": [
+          "Calamari.Common"
+        ],
+        "ProjectRefs": []
+      },
+      {
+        "Name": "Calamari.AzureScripting.Tests",
+        "PackageRefs": [
+          "Calamari.Tests.Shared"
+        ],
+        "ProjectRefs": [
+          "Calamari.AzureScripting"
+        ]
+      },
+      {
+        "Name": "Sashimi.AzureScripting",
+        "PackageRefs": [],
+        "ProjectRefs": []
+      },
+      {
+        "Name": "Sashimi.AzureScripting.Tests",
+        "PackageRefs": [
+          "Sashimi.Tests.Shared"
+        ],
+        "ProjectRefs": [
+          "Sashimi.AzureScripting",
+          "Calamari.AzureScripting"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Calamari",
+    "Projects": [
+      {
+        "Name": "Calamari.Common",
+        "PackageRefs": [],
+        "ProjectRefs": []
+      },
+      {
+        "Name": "Calamari.Tests.Shared",
+        "PackageRefs": [],
+        "ProjectRefs": []
+      },
+      {
+        "Name": "Sashimi.Tests.Shared",
+        "PackageRefs": [],
+        "ProjectRefs": []
+      }
+    ]
+  }
+]
